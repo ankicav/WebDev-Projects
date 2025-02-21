@@ -1,0 +1,2 @@
+link: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+sta_je_to: sajt sa elementima(h1-h6...)
