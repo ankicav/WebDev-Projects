@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Zastava" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        .Zastava {
+            background-color: red;
+            height: 600px;
+            width: 900px;
+            position: relative;
+    
+        }
+        .Zastava > div {
+            background-color: blue;
+            height: 200px;
+            width: 900px;
+            position: absolute;
+            top: 200px;
+        }
+        .Zastava > div > div {
+            background-color: white;
+            height: 200px;
+            width: 900px;
+            position: absolute;
+            top: 200px;
+        }
+
+        .Zastava > p {
+            font-size: 5rem;
+            color: blue;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 54.5px;  /* kako sam dosla do ove racunice */
+            left: 325px; /* kako sam dosla do ove racunice */
+        }
+
+        .Zastava > div > p {
+            font-size: 5rem;
+            color: white;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 54.5px;
+            left: 290px;
+        }
+
+        .Zastava > div > div > p {
+            font-size: 5rem;
+            color: red;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 54.5px;
+            left: 360px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="Zastava">
+        <p>Zastava</p>
+        <div>
+            <p> Republike</p>
+            <div>
+                <p>Srpske</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
